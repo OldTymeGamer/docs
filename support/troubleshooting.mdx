@@ -1,0 +1,98 @@
+---
+title: "Troubleshooting Ashburn Creek Connection & Game Issues"
+sidebarTitle: "Troubleshooting"
+description: "Fix connection problems, loading issues, missing controls, voice chat errors, and inventory bugs in Ashburn Creek with these step-by-step guides."
+---
+
+Work through the relevant section below before opening a support ticket. Most common problems can be resolved in a few minutes with these checks. Restart RedM after each change you make to ensure it takes effect.
+
+<AccordionGroup>
+
+  <Accordion title="Cannot Connect to the Server">
+    If the server isn't appearing in your browser or your connection attempt fails or times out, run through these steps in order:
+
+    <Steps>
+      <Step title="Update Red Dead Redemption 2 and RedM">
+        Open the Rockstar Games Launcher and ensure Red Dead Redemption 2 is fully updated. Then check that your RedM client is on the latest version. An outdated game or client is the most common cause of failed connections.
+      </Step>
+      <Step title="Fully close RedM and restart your PC">
+        Don't just close the window — end the process entirely via Task Manager, then restart your computer. This clears any stuck processes or memory issues that can block a connection.
+      </Step>
+      <Step title="Check server status in Discord">
+        Before assuming something is wrong on your end, check the community Discord for any server status announcements. The server may be offline for scheduled maintenance or experiencing a known outage.
+      </Step>
+    </Steps>
+
+    If you've completed all three steps and still cannot connect, open a support ticket with details about what you see on screen — including the error message, any error codes, and the time it occurred.
+  </Accordion>
+
+  <Accordion title="Slow Loading, Stutter, or Missing Textures">
+    Performance problems are usually caused by your system being under heavy load or not meeting the minimum specs. Try the following:
+
+    - **Close background applications.** Browsers, streaming software, Discord overlays, and other programs compete for CPU, memory, and disk. Close everything you don't need before launching RedM.
+    - **Confirm your system meets the minimum requirements.** Check the [FAQ](/support/faq) for the recommended PC specs. If you're below the minimum, you may experience persistent performance issues.
+    - **Lower your in-game graphics settings.** In the Red Dead Redemption 2 settings, reduce texture quality, shadow quality, and draw distance. Even a modest reduction can significantly improve stability on lower-end hardware.
+    - **Use faster storage if possible.** Installing Red Dead Redemption 2 on an SSD rather than a mechanical hard drive dramatically reduces load times and texture pop-in.
+
+    <Info>
+      Missing textures after loading is often a sign that your GPU ran out of VRAM. Lowering texture quality is the fastest fix.
+    </Info>
+  </Accordion>
+
+  <Accordion title="Controls or Interface Not Working">
+    If keybinds feel unresponsive or menu elements aren't appearing correctly, start here:
+
+    - **Open your RedM settings and verify your keybinds.** Navigate to **Settings → Keybinds** in the RedM client and confirm the relevant actions are bound and haven't been overwritten by a conflicting bind.
+    - **Check the server keybinds reference.** Visit the [Keybinds](/gameplay/keybinds) page for the full list of Ashburn Creek server controls. Some server functions use custom binds that differ from the base game defaults.
+    - **Re-enter the server.** Occasionally, scripts don't fully initialise on first load. Disconnect and reconnect to reload them cleanly.
+
+    <Tip>
+      If a specific menu or interface stopped working after a server update, check the Discord announcements channel — a known issue may already be logged there.
+    </Tip>
+  </Accordion>
+
+  <Accordion title="Voice Chat Not Working">
+    Ashburn Creek uses integrated in-game voice — no third-party software required. If other players can't hear you, or you can't hear them, work through these steps:
+
+    <Steps>
+      <Step title="Check your input device in Windows and RedM">
+        Open your Windows **Sound Settings** and confirm your microphone is set as the default input device. Then open **RedM Settings → Audio** and verify the same microphone is selected there. These two settings must match.
+      </Step>
+      <Step title="Test your microphone independently">
+        Use the Windows microphone test (**Settings → System → Sound → Input → Test your microphone**) to confirm your mic is picking up audio before troubleshooting further.
+      </Step>
+      <Step title="Restart RedM after changing audio devices">
+        Audio device changes do not always take effect immediately. After updating any audio settings, close RedM completely and relaunch it before testing again.
+      </Step>
+      <Step title="Check your in-game voice range">
+        Press `J` in-game to cycle your voice range. Make sure you haven't accidentally set it to a very short range, which could make it seem like voice isn't working when nearby players simply can't hear you.
+      </Step>
+    </Steps>
+
+    If voice still isn't working after all of the above, open a support ticket and include your microphone make and model, your operating system, and any error message RedM displayed.
+  </Accordion>
+
+  <Accordion title="Inventory: Can't Split Items">
+    The split option only appears for eligible stacked items. If you're not seeing it, work through these checks:
+
+    - **Confirm the stack has more than one item.** A single item cannot be split. If your stack shows a quantity of `1`, there's nothing to divide.
+    - **Verify the item type supports splitting.** Some items in Ashburn Creek cannot be split by design. This is intentional and not a bug.
+    - **Close and reopen your inventory.** Press `I` to close the inventory completely, wait a moment, then press `I` again to reopen it. This forces the menu to refresh and can resolve display issues.
+
+    <Steps>
+      <Step title="Open your inventory">
+        Press `I` to open your inventory and select the stack you want to divide.
+      </Step>
+      <Step title="Use the split action">
+        With the stack selected, the split option will appear in the action menu if the item is eligible. Choose it and enter the quantity you want to split off.
+      </Step>
+    </Steps>
+
+    If you have confirmed you have a stack of more than one of a splittable item and the option still doesn't appear, take a screenshot showing the stack and your inventory screen, then open a support ticket.
+  </Accordion>
+
+</AccordionGroup>
+
+<Note>
+  If none of the above steps resolve your issue, open a support ticket in the community Discord. Include the error message or description, the approximate time it occurred, and any relevant screenshots or video clips. The more detail you provide, the faster staff can help you.
+</Note>

@@ -1,0 +1,90 @@
+{
+  "projectType": "saas",
+  "projectName": "Ashburn Creek",
+  "projectDescription": "A story-driven, whitelist RedM frontier roleplay community set in the Wild West, circa 1900, where players build character-led narratives through immersive voice-driven scenes, lasting consequences, and a tight-knit 18+ player community.",
+  "theme": "almond",
+  "primaryColor": "#1be49c",
+  "lightColor": "#0c8c5c",
+  "darkColor": "#0c0c0c",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Player Guide",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "getting-started/joining-the-server",
+              "getting-started/creating-your-character",
+              "getting-started/queue-priority"
+            ]
+          },
+          {
+            "group": "Rules & Conduct",
+            "pages": [
+              "rules/community-standards",
+              "rules/roleplay-rules",
+              "rules/zero-tolerance"
+            ]
+          },
+          {
+            "group": "Gameplay",
+            "pages": [
+              "gameplay/keybinds",
+              "gameplay/roleplay-commands",
+              "gameplay/voice-chat",
+              "gameplay/inventory"
+            ]
+          },
+          {
+            "group": "Roles & Livelihoods",
+            "pages": [
+              "roles/overview",
+              "roles/law-and-order",
+              "roles/medicine",
+              "roles/frontier-work"
+            ]
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "support/faq",
+              "support/troubleshooting",
+              "support/contact"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Story-driven frontier roleplay built on Red Dead Redemption 2 via RedM",
+    "Character-led narratives with lasting consequences, relationships, and organic faction dynamics",
+    "Whitelist application process ensuring a committed, rules-aware 18+ player community",
+    "Structured whitelisted roles for law enforcement, lawyers, and doctors with queue priority perks",
+    "Open-to-all frontier livelihoods including ranching, commerce, craftwork, and drifting",
+    "Integrated proximity in-game voice chat — no third-party software required",
+    "Comprehensive stance and emote command system (/s, /me, /do, /try, /hurt, /tag)",
+    "Queue priority system rewarding active whitelisted roles and community contributors",
+    "Discord-based ticket system for support, role applications, and rule enforcement"
+  ],
+  "publicApiSurface": [
+    "/me — describe character action or expression to nearby players",
+    "/do — add observable scene detail or describe the surrounding environment",
+    "/try — show character attempting an action with uncertain outcome",
+    "/hurt — communicate character's visible wounds or pain",
+    "/tag — add a visible description of a character attribute",
+    "/kys — immediately down character when physically stuck (last resort only)",
+    "/guide — display in-game tips (coming soon)",
+    "/s <stancename> — hold a pose or looping animation (e.g. /s sitg, /s leanpostl, /s stand)",
+    "I — open/close inventory",
+    "J — cycle in-game voice range (Whisper / Normal / Shout)",
+    "U — open Hotbar for quick item access",
+    "Caps Lock / Middle Mouse Wheel — open radial Interaction Menu",
+    "F6 — open Dance Menu",
+    "H — whistle horse",
+    "X — raise hands",
+    "Z — ragdoll"
+  ]
+}
